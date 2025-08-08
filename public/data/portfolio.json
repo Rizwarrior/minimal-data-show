@@ -1,75 +1,63 @@
 {
   "person": {
-    "name": "Your Name",
-    "title": "Data Analyst",
-    "email": "you@example.com",
-    "location": "City, Country",
-    "linkedin": "https://www.linkedin.com/in/your-link",
-    "github": "https://github.com/your-username",
-    "summary": "I turn messy data into clear insights. I specialize in SQL, Python, and BI tools to build dashboards, automate analyses, and drive measurable impact."
+    "name": "Shruti Dubey",
+    "title": "Full-Stack Developer",
+    "email": "work.shrutidubey@gmail.com",
+    "location": "Manchester, UK",
+    "linkedin": "https://www.linkedin.com/in/shrutiupkd/",
+    "summary": "Postgraduate in Computer Science with experience in full‑stack development using Flutter, Node.js, and AWS. Leading the build of a health supplement platform across frontend and backend. Interested in applying tech to healthcare through machine learning, API integrations, and cloud‑based systems."
   },
   "experience": [
     {
-      "role": "Data Analyst",
-      "company": "Acme Corp",
-      "start": "2022",
-      "end": "Present",
+      "role": "Freelance Full-Stack Developer",
+      "company": "Ecozen Healthcare — Remote",
+      "start": "June 2025",
+      "end": "Current",
       "impacts": [
-        "Built SQL pipelines cutting dashboard refresh time by 65%",
-        "Designed A/B experiments increasing signup conversion by 8.4%",
-        "Automated reporting saved ~12 hrs/week across teams"
+        "Led the end‑to‑end development of a health supplement platform, owning architecture, development, and deployment.",
+        "Built a mobile‑first frontend in Flutter focused on user education and product discovery.",
+        "Designed and deployed Django REST APIs, integrated third‑party services (checkout, CRM, chatbot), and implemented cloud‑based features for scalability."
       ]
     },
     {
-      "role": "Business Analyst",
-      "company": "Globex",
-      "start": "2020",
-      "end": "2022",
+      "role": "Frontend Developer Intern",
+      "company": "Zero Designs — Ahmedabad, India",
+      "start": "Nov 2021",
+      "end": "Jan 2022",
       "impacts": [
-        "Created Tableau scorecards for 5 regions with real-time KPIs",
-        "Forecast model improved inventory turns by 11%"
+        "Developed responsive web pages using HTML5, CSS, and JavaScript, improving performance and achieving ~30% faster load times across devices.",
+        "Built backend services with Node.js and Express for dynamic data rendering; integrated custom WordPress plugins and React components to streamline content management.",
+        "Collaborated in an agile team to deliver accessible, brand‑aligned UIs, contributing to a ~20% increase in user satisfaction based on client feedback and analytics."
       ]
     }
   ],
   "projects": [
     {
-      "title": "Product Analytics Dashboard",
-      "problem": "Leadership lacked a single source of truth for product KPIs.",
-      "approach": "Modeled events in SQL, built dbt transformations, and shipped a dashboard.",
-      "impact": "Reduced weekly KPI prep from 6 hours to 10 minutes.",
-      "tools": ["SQL", "Tableau", "dbt"],
-      "image": "/images/project-dashboard.webp",
-      "chartData": [
-        { "name": "Jan", "value": 32 },
-        { "name": "Feb", "value": 45 },
-        { "name": "Mar", "value": 51 }
-      ]
+      "title": "News Headlines and Covid Vaccine Data Analysis (Dissertation)",
+      "problem": "Understand vaccine‑related media sentiment and its relationship to vaccination trends across the UK.",
+      "approach": "Scraped >433k headlines from 3 UK news sites (BeautifulSoup); performed sentiment analysis with VADER; engineered vaccination and sentiment datasets; applied NLP preprocessing with NLTK & Pandas; built an interactive dashboard in Dash/Plotly.",
+      "impact": "Revealed correlations between vaccination rates and sentiment trends over time and regions; enabled data‑driven exploration via a visualization dashboard.",
+      "tools": ["Python", "BeautifulSoup", "VADER", "NLTK", "Pandas", "Plotly", "Dash"]
     },
     {
-      "title": "A/B Test: Onboarding Flow",
-      "problem": "High drop-off during onboarding.",
-      "approach": "Implemented experiment and analyzed results in Python and SQL.",
-      "impact": "Variant B boosted activation by 6.2% (p < 0.05).",
-      "tools": ["Python", "SQL", "Statistics"],
-      "image": "/images/project-abtest.webp"
-    },
-    {
-      "title": "ETL Pipeline Modernization",
-      "problem": "Legacy scripts were brittle and slow.",
-      "approach": "Refactored jobs, standardized schemas, and added monitoring.",
-      "impact": "Cut failures by 90% and runtime by 40%.",
-      "tools": ["Python", "Airflow"],
-      "image": "/images/project-etl.webp"
+      "title": "Recommending Project Resources (Final Year Project)",
+      "problem": "Students struggled to find relevant project resources across domains.",
+      "approach": "Collected ~3,600 project entries via web scraping (Octoparse, GitHub, Medium); engineered the dataset; built a content‑based recommender with CountVectorizer and Cosine Similarity; applied NLP preprocessing (tokenization, stemming, stopword removal) in NLTK; served real‑time recommendations via a web interface.",
+      "impact": "Improved discoverability of project resources and delivered real‑time recommendations; work published in IJRASET.",
+      "tools": ["Python", "NLTK", "scikit-learn", "Pandas", "NumPy", "CountVectorizer", "Cosine Similarity"]
     }
   ],
-  "skills": ["SQL", "Python", "Excel", "Tableau", "Power BI", "Statistics", "A/B testing", "Data Visualization"],
+  "skills": [
+    "Python", "JavaScript", "SQL", "HTML", "CSS", "Flutter", "Node.js", "React", "Django", "Dash",
+    "Pandas", "NumPy", "scikit-learn", "NLTK", "Plotly", "MongoDB", "MySQL", "Power BI", "Tableau", "AWS",
+    "TensorFlow", "PyTorch", "Seaborn", "Matplotlib", "JupyterLab", "Git"
+  ],
   "certifications": [
-    { "name": "Google Data Analytics", "issuer": "Coursera", "date": "2023" }
+    { "name": "AWS She Build Program (enrolled)", "issuer": "AWS", "date": "2025" }
   ],
   "education": [
-    { "degree": "B.Sc. in Economics", "school": "State University", "year": "2020" }
+    { "degree": "MSc in Advanced Computer Science (Masters with Merit)", "school": "University of Manchester, UK", "year": "2024" },
+    { "degree": "BEng in Computer Engineering (CGPA 9.51/10)", "school": "University of Mumbai, India", "year": "2023" }
   ],
-  "testimonials": [
-    { "quote": "Consistently delivers actionable insights with speed and clarity.", "author": "Jane Manager", "role": "Head of Product" }
-  ]
+  "testimonials": []
 }

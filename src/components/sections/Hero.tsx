@@ -69,8 +69,8 @@ const Hero = ({ person }: { person: Person }) => {
           className="md:justify-self-end"
         >
           <img
-            src="/images/headshot.webp"
-            alt="Professional headshot of data analyst Your Name"
+            src="/images/1000113251.jpg"
+            alt={`Professional headshot of data analyst ${person.name}`}
             width={320}
             height={320}
             className="rounded-lg border border-border object-cover"
