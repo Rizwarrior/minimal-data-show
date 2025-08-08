@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "Your Name",
+    "title": "Data Analyst",
+    "email": "you@example.com",
+    "location": "City, Country",
+    "summary": "I turn messy data into clear insights. I specialize in SQL, Python, and BI tools to build dashboards, automate analyses, and drive measurable impact."
+  },
+  "experience": [
+    {
+      "role": "Data Analyst",
+      "company": "Acme Corp",
+      "start": "2022",
+      "end": "Present",
+      "impacts": [
+        "Built SQL pipelines cutting dashboard refresh time by 65%",
+        "Designed A/B experiments increasing signup conversion by 8.4%",
+        "Automated reporting saved ~12 hrs/week across teams"
+      ]
+    },
+    {
+      "role": "Business Analyst",
+      "company": "Globex",
+      "start": "2020",
+      "end": "2022",
+      "impacts": [
+        "Created Tableau scorecards for 5 regions with real-time KPIs",
+        "Forecast model improved inventory turns by 11%"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Product Analytics Dashboard",
+      "problem": "Leadership lacked a single source of truth for product KPIs.",
+      "approach": "Modeled events in SQL, built dbt transformations, and shipped a dashboard.",
+      "impact": "Reduced weekly KPI prep from 6 hours to 10 minutes.",
+      "tools": ["SQL", "Tableau", "dbt"],
+      "image": "/images/project-dashboard.webp",
+      "chartData": [
+        { "name": "Jan", "value": 32 },
+        { "name": "Feb", "value": 45 },
+        { "name": "Mar", "value": 51 }
+      ]
+    },
+    {
+      "title": "A/B Test: Onboarding Flow",
+      "problem": "High drop-off during onboarding.",
+      "approach": "Implemented experiment and analyzed results in Python and SQL.",
+      "impact": "Variant B boosted activation by 6.2% (p < 0.05).",
+      "tools": ["Python", "SQL", "Statistics"],
+      "image": "/images/project-abtest.webp"
+    },
+    {
+      "title": "ETL Pipeline Modernization",
+      "problem": "Legacy scripts were brittle and slow.",
+      "approach": "Refactored jobs, standardized schemas, and added monitoring.",
+      "impact": "Cut failures by 90% and runtime by 40%.",
+      "tools": ["Python", "Airflow"],
+      "image": "/images/project-etl.webp"
+    }
+  ],
+  "skills": ["SQL", "Python", "Excel", "Tableau", "Power BI", "Statistics", "A/B testing", "Data Visualization"],
+  "certifications": [
+    { "name": "Google Data Analytics", "issuer": "Coursera", "date": "2023" }
+  ],
+  "education": [
+    { "degree": "B.Sc. in Economics", "school": "State University", "year": "2020" }
+  ],
+  "testimonials": [
+    { "quote": "Consistently delivers actionable insights with speed and clarity.", "author": "Jane Manager", "role": "Head of Product" }
+  ]
+}
