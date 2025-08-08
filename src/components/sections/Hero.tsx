@@ -55,11 +55,14 @@ const Hero = ({ person }: { person: Person }) => {
                 <Button variant="outline"><Linkedin className="h-4 w-4 mr-2" />LinkedIn</Button>
               </a>
             )}
-            {person.github && (
-              <a href={person.github} target="_blank" rel="noopener noreferrer" onClick={() => track('cta_click', { cta: 'github' })}>
-                <Button variant="outline"><Github className="h-4 w-4 mr-2" />GitHub</Button>
-              </a>
-            )}
+            <a
+              href={person.github ?? 'https://github.com/shrutiupkd'}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => track('cta_click', { cta: 'github' })}
+            >
+              <Button variant="outline"><Github className="h-4 w-4 mr-2" />GitHub</Button>
+            </a>
           </div>
         </div>
         <motion.div
