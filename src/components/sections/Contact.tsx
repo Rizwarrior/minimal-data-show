@@ -17,7 +17,7 @@ const Contact = ({ email }: { email: string }) => {
   };
 
   return (
-    <section id="contact" className="container py-16 md:py-24" aria-labelledby="contact-title">
+    <section id="contact" className="container py-16 md:py-24 animate-fade-in" aria-labelledby="contact-title">
       <h2 id="contact-title" className="text-2xl font-semibold mb-6">Contact</h2>
       <form onSubmit={onSubmit} className="grid gap-4 max-w-xl">
         <label className="grid gap-1 text-sm">

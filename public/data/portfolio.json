@@ -4,6 +4,8 @@
     "title": "Data Analyst",
     "email": "you@example.com",
     "location": "City, Country",
+    "linkedin": "https://www.linkedin.com/in/your-link",
+    "github": "https://github.com/your-username",
     "summary": "I turn messy data into clear insights. I specialize in SQL, Python, and BI tools to build dashboards, automate analyses, and drive measurable impact."
   },
   "experience": [

@@ -2,7 +2,7 @@ interface Cert { name: string; issuer: string; date: string }
 interface Edu { degree: string; school: string; year: string }
 
 const CertsEducation = ({ certifications, education }: { certifications: Cert[]; education: Edu[] }) => (
-  <section className="container py-16 md:py-24" aria-labelledby="cred-title">
+  <section className="container py-16 md:py-24 animate-fade-in" aria-labelledby="cred-title">
     <h2 id="cred-title" className="text-2xl font-semibold mb-6">Certifications & Education</h2>
     <div className="grid md:grid-cols-2 gap-6 text-sm text-muted-foreground">
       <div>

@@ -20,7 +20,7 @@ const Projects = ({ projects }: { projects: Project[] }) => {
   const filtered = useMemo(() => filter === "All" ? projects : projects.filter(p => p.tools.includes(filter)), [projects, filter]);
 
   return (
-    <section id="projects" className="container py-16 md:py-24" aria-labelledby="projects-title">
+    <section id="projects" className="container py-16 md:py-24 animate-fade-in" aria-labelledby="projects-title">
       <div className="flex items-center justify-between mb-6">
         <h2 id="projects-title" className="text-2xl font-semibold">Projects</h2>
         <div className="flex flex-wrap items-center gap-2">

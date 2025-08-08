@@ -2,14 +2,9 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { track } from "@/lib/analytics";
+import { Github, Linkedin } from "lucide-react";
 
-interface Person {
-  name: string;
-  title: string;
-  email: string;
-  location: string;
-  summary: string;
-}
+interface Person { name: string; title: string; email: string; location: string; summary: string; linkedin?: string; github?: string }
 
 const Hero = ({ person }: { person: Person }) => {
   return (
@@ -55,6 +50,16 @@ const Hero = ({ person }: { person: Person }) => {
                 </div>
               </DialogContent>
             </Dialog>
+            {person.linkedin && (
+              <a href={person.linkedin} target="_blank" rel="noopener noreferrer" onClick={() => track('cta_click', { cta: 'linkedin' })}>
+                <Button variant="outline"><Linkedin className="h-4 w-4 mr-2" />LinkedIn</Button>
+              </a>
+            )}
+            {person.github && (
+              <a href={person.github} target="_blank" rel="noopener noreferrer" onClick={() => track('cta_click', { cta: 'github' })}>
+                <Button variant="outline"><Github className="h-4 w-4 mr-2" />GitHub</Button>
+              </a>
+            )}
           </div>
         </div>
         <motion.div

@@ -7,7 +7,7 @@ interface ExperienceItem {
 }
 
 const Experience = ({ items }: { items: ExperienceItem[] }) => (
-  <section id="experience" className="container py-16 md:py-24" aria-labelledby="experience-title">
+  <section id="experience" className="container py-16 md:py-24 animate-fade-in" aria-labelledby="experience-title">
     <h2 id="experience-title" className="text-2xl font-semibold mb-8">Experience</h2>
     <ol className="relative border-l border-border space-y-10">
       {items.map((item, idx) => (
